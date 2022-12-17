@@ -1,8 +1,10 @@
 -- MySQL dump 10.13  Distrib 8.0.31, for Win64 (x86_64)
 --
--- Host: localhost    Database: country_3
+-- Host: localhost    Database: country_1
 -- ------------------------------------------------------
 -- Server version	8.0.31
+
+
 
 
 --
@@ -58,21 +60,30 @@ CREATE TABLE `movie` (
 
 LOCK TABLES `movie` WRITE;
 /*!40000 ALTER TABLE `movie` DISABLE KEYS */;
-INSERT INTO `movie` VALUES
-('movie1','Top Gun: Maverick','24-05-2022',183,'summary1', 8.3, "https://image.tmdb.org/t/p/w300/62HCnUTziyWcpDaBO2i1DX17ljH.jpg",'genre1'),
-('movie2','Avengers: Age of Ultron','22-04-2015',183,'summary1', 7.0, "https://image.tmdb.org/t/p/original/4ssDuvEDkSArWEdyBl2X5EHvYKU.jpg",'genre1'),
-('movie3','Pacific Rim','2013-07-11',183,'summary1', 8, "https://image.tmdb.org/t/p/original/5bzMFMdkkDsv7nJPEyCqMdl1Cr6.jpg",'genre1'),
-('movie4','King Kong','2005-12-12',183,'summary1', 9.5, "https://image.tmdb.org/t/p/original/6a2HY6UmD7XiDD3NokgaBAXEsD2.jpg",'genre1'),
-('movie5','Avatar','10-12-2009',183,'summary1', 9.5, "https://image.tmdb.org/t/p/w300/jRXYjXNq0Cs2TcJjLkki24MLp7u.jpg",'genre1'),
-('movie6','Avatar: The Way of Water','2022-12-14',183,'summary1', 9, "https://image.tmdb.org/t/p/original/94xxm5701CzOdJdUEdIuwqZaowx.jpg",'genre1'),
-('movie7','Avengers: Infinity War','2018-04-25',183,'summary1', 8.5, "https://image.tmdb.org/t/p/original/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",'genre1'),
-('movie8','Avengers: Endgame','2019-04-24',183,'summary1', 8, "https://image.tmdb.org/t/p/original/or06FN3Dka5tukK1e9sl16pB3iy.jpg",'genre1'),
-('movie9','Godzilla vs. Kong','2021-03-24',183,'summary1', 7, "https://image.tmdb.org/t/p/original/pgqgaUx1cJb5oZQQ5v0tNARCeBp.jpg",'genre1'),
-('movie10','Pacific Rim: Uprising','2018-03-21',183,'summary1', 6, "https://image.tmdb.org/t/p/original/v5HlmJK9bdeHxN2QhaFP1ivjX3U.jpg",'genre1'),
-('movie11','Godzilla: King of the Monsters','2019-05-29',183,'summary1', 7.5, "https://image.tmdb.org/t/p/original/fQ40gmFM4p03tXwMxQQKh2cCBW4.jpg",'genre1'),
-('movie12','Godzilla','2014-05-14',183,'summary1', 8, "https://image.tmdb.org/t/p/original/inNN466SKHNjbGmpfhfsaPQNleS.jpg",'genre1'),
-('movie13','The Northman','2022-04-07',183,'summary1', 9, "https://image.tmdb.org/t/p/original/aSSJMnHknzKjlZ6zybwD7eyJ4Po.jpg",'genre1'),
-('movie14','Kong: Skull Island','2014-05-14',183,'summary1', 6, "https://image.tmdb.org/t/p/original/r2517Vz9EhDhj88qwbDVj8DCRZN.jpg",'genre1');
+INSERT INTO `movie` VALUES 
+('movie1','Fall','11-08-2022',183,'summary1', 7.3, "https://image.tmdb.org/t/p/w300/spCAxD99U1A6jsiePFoqdEcY0dG.jpg",'genre1'),
+('movie2','Pinocchio','07-09-2022',183,'summary1', 6.6, "https://image.tmdb.org/t/p/w300/h32gl4a3QxQWNiNaR4Fc1uvLBkV.jpg",'genre1'),
+('movie3','Beast','11-08-2022',183,'summary1', 7, "https://image.tmdb.org/t/p/w300/iRV0IB5xQeOymuGGUBarTecQVAl.jpg",'genre1'),
+('movie4','Orphan: First Kill','27-07-2022',183,'summary1', 6.8, "https://image.tmdb.org/t/p/w300/wSqAXL1EHVJ3MOnJzMhUngc8gFs.jpg",'genre1'),
+('movie5','Samaritan','25-08-2022',183,'summary1', 6.9, "https://image.tmdb.org/t/p/w300/vwq5iboxYoaSpOmEQrhq9tHicq7.jpg",'genre1'),
+('movie7','Jujutsu Kaisen 0','24-12-2021',183,'summary1', 8.3, "https://image.tmdb.org/t/p/w300/yzkgx79vj1KsZBzxFBIsQBwBkPE.jpg",'genre1'),
+('movie8','Thor: Love and Thunder','06-07-2022',183,'summary1', 6.5, "https://image.tmdb.org/t/p/w300/pIkRyD18kl4FhoCNQuWxWu5cBLM.jpg",'genre1'),
+('movie9','Dragon Ball Super: Super Hero','11-06-2022',183,'summary1', 8, "https://image.tmdb.org/t/p/w300/rugyJdeoJm7cSJL1q4jBpTNbxyU.jpg",'genre1'),
+('movie10','DC League of Super-Pets','27-07-2022',183,'summary1', 1, "https://image.tmdb.org/t/p/w300/r7XifzvtezNt31ypvsmb6Oqxw49.jpg",'genre1'),
+('movie12','Prey','02-08-2022',183,'summary1', 8, "https://image.tmdb.org/t/p/w300/ujr5pztc1oitbe7ViMUOilFaJ7s.jpg",'genre1'),
+('movie14','Inexorable','06-04-2022',183,'summary1', 6, "https://image.tmdb.org/t/p/w300/iiclsw6zgRJz5D5Cc6sn4Cs9GQo.jpg",'genre1'),
+('movie15','Top Gun: Maverick','24-05-2022',183,'summary1', 8.3, "https://image.tmdb.org/t/p/w300/62HCnUTziyWcpDaBO2i1DX17ljH.jpg",'genre1'),
+('movie16','Avatar','10-12-2009',183,'summary1', 9.5, "https://image.tmdb.org/t/p/w300/jRXYjXNq0Cs2TcJjLkki24MLp7u.jpg",'genre1'),
+('movie17','Seoul Vibe','26-08-2022',183,'summary1', 4.5, "https://image.tmdb.org/t/p/w300/ffX0TL3uKerLXACkuZGWhAPMbAq.jpg",'genre1'),
+('movie18','End of the Road','09-09-2022',183,'summary1', 8, "https://image.tmdb.org/t/p/w300/tLFIMuPWJHlTJ6TN8HCOiSD6SdA.jpg",'genre1'),
+('movie19','Welcome to the Club','08-09-2022',183,'summary1', 2, "https://image.tmdb.org/t/p/w300/kxB9E6fo0ycHzd13oOTHmGa5Njd.jpg",'genre1'),
+('movie20','Interstellar','2014-11-05',183,'summary1', 9, "https://image.tmdb.org/t/p/w300/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",'genre1'),
+('movie21','Troll','2022-12-01',183,'summary1', 6, "https://image.tmdb.org/t/p/w300/9z4jRr43JdtU66P0iy8h18OyLql.jpg",'genre1'),
+('movie22','Fantastic Beasts and Where to Find Them','2016-11-16',183,'summary1', 7.5, "https://image.tmdb.org/t/p/w300/h6NYfVUyM6CDURtZSnBpz647Ldd.jpg",'genre1'),
+('movie23','Fantastic Beasts: The Crimes of Grindelwald','2018-11-14',183,'summary1', 7, "https://image.tmdb.org/t/p/w300/fMMrl8fD9gRCFJvsx0SuFwkEOop.jpg",'genre1'),
+('movie24','Fantastic Beasts: The Secrets of Dumbledore','2022-04-06',183,'summary1', 6.5, "https://image.tmdb.org/t/p/w300/3c5GNLB4yRSLBby0trHoA1DSQxQ.jpg",'genre1');
+
+
 /*!40000 ALTER TABLE `movie` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -102,7 +113,7 @@ CREATE TABLE `user` (
 
 LOCK TABLES `user` WRITE;
 /*!40000 ALTER TABLE `user` DISABLE KEYS */;
-INSERT INTO `user` VALUES ('user7','name7','email7','password7','2022-01-01 10:00:00','111222333','111111111'),('user8','name8','email8','password8','2022-01-01 10:00:00','111222333','111111111'),('user9','name9','email9','password9','2022-01-01 10:00:00','111222333','111111111');
+INSERT INTO `user` VALUES ('user1','name1','email1','password1','2021-12-31 22:00:00','111222333','11111111'),('user2','name2','email2','password2','2021-12-31 22:00:00','111222333','11111111'),('user3','name3','email3','password3','2021-12-31 22:00:00','111222333','11111111');
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -131,9 +142,10 @@ CREATE TABLE `movie_library` (
 
 LOCK TABLES `movie_library` WRITE;
 /*!40000 ALTER TABLE `movie_library` DISABLE KEYS */;
-INSERT INTO `movie_library` VALUES ('movie7','user7',23,'2022-01-01 16:30:00'),('movie8','user8',34,'2022-01-01 16:30:00'),('movie9','user9',12,'2022-01-01 16:30:00');
+INSERT INTO `movie_library` VALUES ('movie1','user1',96.5,'2022-01-01 14:00:00'),('movie1','user2',10,'2022-01-01 14:00:00'),('movie2','user1',100,'2022-01-01 14:00:00');
 /*!40000 ALTER TABLE `movie_library` ENABLE KEYS */;
 UNLOCK TABLES;
+
 
 --
 -- Table structure for table `series`
@@ -165,16 +177,22 @@ CREATE TABLE `series` (
 LOCK TABLES `series` WRITE;
 /*!40000 ALTER TABLE `series` DISABLE KEYS */;
 INSERT INTO `series` VALUES 
-('series1','Fringe','summary2',1,10,'2008-09-09', 'https://image.tmdb.org/t/p/original/sY9hg5dLJ93RJOyKEiu1nAtBRND.jpg', 10,'genre2'),
-('series2',"Grey's Anatomy",'summary2',1,10,'2005-03-27', 'https://image.tmdb.org/t/p/original/sY9hg5dLJ93RJOyKEiu1nAtBRND.jpg', 6.5,'genre2'),
-('series3','Firefly','summary3',2,15,'2002-09-20', 'https://image.tmdb.org/t/p/original/vZcKsy4sGAvWMVqLluwYuoi11Kj.jpg',8.3,'genre1'),
-('series4','The Expanse','summary3',2,15,'2015-12-14', 'https://image.tmdb.org/t/p/original/lLidDKUYF5pcmH7zaM6J6nyRQGG.jpg',7,'genre1'),
-('series5','Dark','summary3',2,15,'2017-12-01', 'https://image.tmdb.org/t/p/original/7yQyDCqSazrYTnmxdQLAZ8YDH87.jpg',9,'genre1'),
-('series6','The Rings of Power','summary3',2,15,'2022-09-01', 'https://image.tmdb.org/t/p/original/mYLOqiStMxDK3fYZFirgrMt8z5d.jpg',7.6,'genre1'),
-('series7','The Boys','summary3',2,15,'2019-07-25', 'https://image.tmdb.org/t/p/original/stTEycfG9928HYGEISBFaG1ngjM.jpg',8.5,'genre1'),
-('series8','Wednesday','summary1',1,10,'2022-11-23', 'https://image.tmdb.org/t/p/original/9PFonBhy4cQy7Jz20NpMygczOkv.jpg', 8.8,'genre1'),
-('series9','Better Call Saul','summary3',2,15,'2015-02-08', 'https://image.tmdb.org/t/p/original/iB6x0bA9XdP4MH3i1zXjMzvTNSY.jpg',8.6,'genre1'),
-('series10','The Office','summary3',2,15,'2005-03-24', 'https://image.tmdb.org/t/p/original/qWnJzyZhyy74gjpSjIXWmuk0ifX.jpg',6,'genre1');
+('series1','Wednesday','summary1',1,10,'2022-11-23', 'https://image.tmdb.org/t/p/original/9PFonBhy4cQy7Jz20NpMygczOkv.jpg', 8.8,'genre1'),
+('series2','Fringe','summary2',1,10,'2008-09-09', 'https://image.tmdb.org/t/p/original/sY9hg5dLJ93RJOyKEiu1nAtBRND.jpg', 10,'genre2'),
+('series3','Lost','summary3',2,15,'2004-09-22', 'https://image.tmdb.org/t/p/original/og6S0aTZU6YUJAbqxeKjCa3kY1E.jpg',9,'genre1'),
+('series4','Prison Break','summary3',2,15,'2005-08-29', 'https://image.tmdb.org/t/p/original/5E1BhkCgjLBlqx557Z5yzcN0i88.jpg',8.2,'genre1'),
+('series5','The Big Bang Theory','summary3',2,15,'2007-09-24', 'https://image.tmdb.org/t/p/original/ooBGRQBdbGzBxAVfExiO8r7kloA.jpg',7.9,'genre1'),
+('series6','Friends','summary3',2,15,'2004-05-06', 'https://image.tmdb.org/t/p/original/f496cm9enuEsZkSPzCwnTESEK5s.jpg',8.3,'genre1'),
+('series7','Gotham','summary3',2,15,'2014-09-22', 'https://image.tmdb.org/t/p/original/4XddcRDtnNjYmLRMYpbrhFxsbuq.jpg',8,'genre1'),
+('series8','Supernatural','summary3',2,15,'2005-09-13', 'https://image.tmdb.org/t/p/original/KoYWXbnYuS3b0GyQPkbuexlVK9.jpg',8.3,'genre1'),
+('series9','Shadow & Bone','summary3',2,15,'2021-04-23', 'https://image.tmdb.org/t/p/original/mrVoyDFiDSqfH4mkoRtccOv2vwh.jpg',7.9,'genre1'),
+('series10','The 100','summary3',2,15,'2014-03-19', 'https://image.tmdb.org/t/p/original/wcaDIAG1QdXQLRaj4vC1EFdBT2.jpg',7.9,'genre1'),
+('series11','Vikings','summary3',2,15,'2013-03-03', 'https://image.tmdb.org/t/p/w300/bQLrHIRNEkE3PdIWQrZHynQZazu.jpg',9,'genre1'),
+('series12','Chernobyl','summary3',2,15,'2019-05-06', 'https://image.tmdb.org/t/p/w300/hlLXt2tOPT6RRnjiUmoxyG1LTFi.jpg',8.5,'genre1'),
+('series13','Avatar: The Last Airbender','summary3',2,15,'2005-02-21', 'https://image.tmdb.org/t/p/w300/cHFZA8Tlv03nKTGXhLOYOLtqoSm.jpg',9,'genre1'),
+('series14','Sherlock','summary3',2,15,'2010-07-25', 'https://image.tmdb.org/t/p/w300/7WTsnHkbA0FaG6R9twfFde0I9hl.jpg',8.5,'genre1'),
+('series15','Black Mirror','summary3',2,15,'2011-12-04', 'https://image.tmdb.org/t/p/w300/7PRddO7z7mcPi21nZTCMGShAyy1.jpg',8.5,'genre1'),
+('series16','The Simpsons','summary3',2,15,'1989-12-17', 'https://image.tmdb.org/t/p/w300/zI3E2a3WYma5w8emI35mgq5Iurx.jpg',8,'genre1');
 /*!40000 ALTER TABLE `series` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -204,7 +222,7 @@ CREATE TABLE `seasons` (
 
 LOCK TABLES `seasons` WRITE;
 /*!40000 ALTER TABLE `seasons` DISABLE KEYS */;
-INSERT INTO `seasons` VALUES ('season7','series7','summary7','2022-01-01',8),('season8','series8','summary8','2022-01-01',7),('season9','series9','summary9','2022-01-01',9);
+INSERT INTO `seasons` VALUES ('season1','series1','summary1','2022-01-01',9),('season2','series2','summary2','2022-01-01',8),('season3','series2','summary3','2022-01-01',7);
 /*!40000 ALTER TABLE `seasons` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -239,10 +257,9 @@ CREATE TABLE `episodes` (
 
 LOCK TABLES `episodes` WRITE;
 /*!40000 ALTER TABLE `episodes` DISABLE KEYS */;
-INSERT INTO `episodes` VALUES ('episode7','series7','season7','title7',2,'summary7',45,'2022-01-01',7),('episode8','series8','season8','title8',4,'summary8',21,'2022-01-01',4),('episode9','series9','season9','title9',5,'summary9',61,'2022-01-01',6);
+INSERT INTO `episodes` VALUES ('episode1','series1','season1','title1',1,'summary1',65,'2022-01-01',7),('episode2','series1','season1','title2',2,'summary2',45,'2022-02-01',8),('episode3','series1','season1','title3',3,'summary3',55,'2022-03-01',9);
 /*!40000 ALTER TABLE `episodes` ENABLE KEYS */;
 UNLOCK TABLES;
-
 
 
 --
@@ -254,10 +271,10 @@ DROP TABLE IF EXISTS `series_library`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `series_library` (
   `watchedEpisodeID` varchar(45) NOT NULL,
-  `userID` varchar(45) DEFAULT NULL,
+  `userID` varchar(45) NOT NULL,
   `watching_progress` float DEFAULT NULL,
   `date_watching_started` datetime DEFAULT NULL,
-  PRIMARY KEY (`watchedEpisodeID`),
+  PRIMARY KEY (`watchedEpisodeID`,`userID`),
   KEY `userIDseries_idx` (`userID`),
   CONSTRAINT `episodesIDwatched` FOREIGN KEY (`watchedEpisodeID`) REFERENCES `episodes` (`episodeID`),
   CONSTRAINT `userIDseries` FOREIGN KEY (`userID`) REFERENCES `user` (`userID`)
@@ -270,10 +287,10 @@ CREATE TABLE `series_library` (
 
 LOCK TABLES `series_library` WRITE;
 /*!40000 ALTER TABLE `series_library` DISABLE KEYS */;
-INSERT INTO `series_library` VALUES ('episode7','user7',100,'2022-01-01 14:24:00'),('episode8','user8',12,'2022-01-01 14:24:00'),('episode9','user8',32,'2022-01-01 14:24:00');
+INSERT INTO `series_library` VALUES ('episode1','user1',96,'2022-01-01 13:00:00'),('episode1','user2',34,'2022-01-01 13:00:00'),('episode2','user1',54.6,'2022-01-01 13:00:00');
 /*!40000 ALTER TABLE `series_library` ENABLE KEYS */;
 UNLOCK TABLES;
 
 
 
--- Dump completed on 2022-12-01 14:29:13
+-- Dump completed on 2022-12-01 14:28:39
