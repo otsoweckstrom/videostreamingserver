@@ -29,31 +29,42 @@ app.use(express.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 
 //Get the movies fix table name, one database for each country queryed by /[country]
-app.get('/api/get/finland', (req, res) => {
+app.get('/api/get/finland/movies', (req, res) => {
     const sqlSelect = 'SELECT * FROM movie'
     db1.query(sqlSelect, (err, result) => {
         res.send(result)
-        console.log(result)
-        console.log(err)
-        console.log('finland')
     })
 })
-app.get('/api/get/spain', (req, res) => {
+
+app.get('/api/get/finland/series', (req, res) => {
+    const sqlSelect = 'SELECT * FROM series'
+    db1.query(sqlSelect, (err, result) => {
+        res.send(result)
+    })
+})
+
+app.get('/api/get/spain/movies', (req, res) => {
     const sqlSelect = 'SELECT * FROM movie'
     db2.query(sqlSelect, (err, result) => {
         res.send(result)
-        console.log(result)
-        console.log(err)
-        console.log('spain')
     })
 })
-app.get('/api/get/usa', (req, res) => {
+app.get('/api/get/spain/series', (req, res) => {
+    const sqlSelect = 'SELECT * FROM series'
+    db2.query(sqlSelect, (err, result) => {
+        res.send(result)
+    })
+})
+app.get('/api/get/usa/movies', (req, res) => {
     const sqlSelect = 'SELECT * FROM movie'
     db3.query(sqlSelect, (err, result) => {
         res.send(result)
-        console.log(result)
-        console.log(err)
-        console.log('usa')
+    })
+})
+app.get('/api/get/usa/series', (req, res) => {
+    const sqlSelect = 'SELECT * FROM series'
+    db3.query(sqlSelect, (err, result) => {
+        res.send(result)
     })
 })
 
