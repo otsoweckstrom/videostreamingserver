@@ -28,7 +28,7 @@ app.use(cors())
 app.use(express.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 
-//Get the movies fix table name, one database for each country queryed by /[country]
+//Get movies and series by querying for /api/get/[country]/[movies or series]
 app.get('/api/get/finland/movies', (req, res) => {
     const sqlSelect = 'SELECT * FROM movie'
     db1.query(sqlSelect, (err, result) => {
